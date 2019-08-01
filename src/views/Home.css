@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
+
+.anim-appear {
+    opacity: 0.01;
+  }
+   
+  .anim-appear.anim-appear-active{
+    opacity: 2;
+    transition: opacity 5s ease-in;
+  }
+  h1{
+    font-family: 'Beth Ellen', cursive;
+    color:white;
+  }
+  .Home{
+      background-color: black;
+  }
+  .foother{
+    background-color: black;
+}
+
+  .texto{
+      margin-top: 10%;
+      align-content: center;
+  }
