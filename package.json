@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lodash-es": "^4.17.15",
-    "lodash-move": "^1.1.1",
     "react": "^16.8.6",
-    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.0.1",
