@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap');
 .my{
-    width: 30rem;
+    width: 25rem;
     height: auto;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 .text{
     height: auto;
@@ -40,6 +40,7 @@
     .text{
         height: auto;
         margin-top: 3rem;
+        width: 100%;
 
     }
     
@@ -54,6 +55,7 @@
     .text{
         height: auto;
         margin-top: 3rem;
+        width: 100%;
 
     }
     
