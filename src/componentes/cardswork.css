@@ -1,4 +1,6 @@
 
+
+
 .wk{
     font-family: 'Dosis', sans-serif;
     font-style:bold;
@@ -84,29 +86,40 @@
 }
 
 .cardBox:nth-child(1) .card .back {
-  background: cornflowerblue;
+  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-size:cover;
 }
 .cardBox:nth-child(1) .card .front {
-  background-image:url("https://i.ibb.co/JpdXc2H/atacama.png");
-  background-size:100%;
+  background-image:url("https://i.ibb.co/LxFFt38/card1.png");
+  background-size:cover;
   
 }
 
 .cardBox:nth-child(2) .card .back {
-  background: orange;
+  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-size:cover;
 }
-
+.cardBox:nth-child(2) .card .front {
+  background-image:url("https://i.ibb.co/TtmXzgm/card2.png");
+  background-size:cover;
+}
 .cardBox:nth-child(3) .card .back {
-  background: yellowgreen;
+  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-size:cover;
+}
+.cardBox:nth-child(3) .card .front {
+  background-image:url("https://i.ibb.co/bPFZZX0/card3.png");
+  background-size:cover;
 }
 
 .cardBox:nth-child(4) .card .back {
-  background: tomato;
+  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-size:cover;
 }
 .cardBox:nth-child(4) .card .front {
-  background: tomato;
+  background-image:url("https://i.ibb.co/wdHXwdm/card4.png");
+  background-size:cover;
 }
-
 .cardBox:nth-child(2) .card {
   -webkit-animation: giro 1.5s 1;
   animation: giro 1.5s 1;

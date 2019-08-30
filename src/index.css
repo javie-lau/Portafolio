@@ -1,3 +1,11 @@
+
 body{
-    background-image: url("https://www.nationalgeographic.com.es/medio/2018/01/22/la-via-lactea-es-mayormente-plana_9fd1ebf7_1200x600.jpg")
-}
+    background-image: url("https://www.nationalgeographic.com.es/medio/2018/01/22/la-via-lactea-es-mayormente-plana_9fd1ebf7_1200x600.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+   }
+

@@ -14,7 +14,7 @@ class Menu extends Component{
                     <a className="menNav nav-link " href="#">About Me</a>
                   </li>
                   <li className="nav-item">
-                    <a className="menNav nav-link" href="#">Skill</a>
+                    <a className="menNav nav-link" href="#">Skills</a>
                   </li>
                   <li className="nav-item">
                     <a className="menNav nav-link" href="#">Proyects</a>

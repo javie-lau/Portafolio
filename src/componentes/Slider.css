@@ -31,6 +31,7 @@
 .center{
   width: 8px;
   height: auto;
+  
 }
 @media (max-width: 576px) {
   #divider{
