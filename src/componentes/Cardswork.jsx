@@ -12,13 +12,13 @@ class Cards extends Component {
       <div className="works">
 
         <h1 className="wk">
-          Proyects
+          Projects
                   </h1>
 
         <div className="boxesContainer">
           <div className="row">
 
-          <div className="cardBox offset-1 col-md3">
+          <div className="cardBox col-md3">
             <div className="card">
             {/*<img className="atacama img-fluid"src={images['atacama.gif']} alt=""/>*/}   
               <div className="front">
@@ -28,13 +28,13 @@ class Cards extends Component {
                 <strong>&#x21bb;</strong>
               </div>
               <div className="back">
-                <h3>Back Side One</h3>
-                <p>Content in card one</p>
-                <a href="#">Button 1</a>
+                <h3>Burger-queer</h3>
+                <p>frameworks ReactJs</p>
+                <a href="https://burguer-queen-b451c.firebaseapp.com/SCL009-Burger-Queen/">Revisa Aqui</a>
               </div>
             </div>
           </div>
-          <div className="cardBox offset-1 col-md3">
+          <div className="cardBox  col-md3">
             <div className="card">
               <div className="front">
                 <h3></h3>
@@ -42,13 +42,13 @@ class Cards extends Component {
                 <strong>&#x21bb;</strong>
               </div>
               <div className="back">
-                <h3>Back Side One</h3>
-                <p>Content in card one</p>
-                <a href="#">Button 1</a>
+                <h3>Atacama Scope</h3>
+                <p>Html y Css</p>
+                <a href="https://github.com/javie-lau/Atacama-Scope">Revisa Aqui</a>
               </div>
             </div>
           </div>
-          <div className="cardBox offset-1 col-md3">
+          <div className="cardBox  col-md3">
             <div className="card">
               <div className="front">
                 <h3></h3>
@@ -56,13 +56,13 @@ class Cards extends Component {
                 <strong>&#x21bb;</strong>
               </div>
               <div className="back">
-                <h3>Back Side One</h3>
-                <p>Content in card one</p>
-                <a href="#">Button 1</a>
+              <h3>Dsg-duchenne</h3>
+                <p>frameworks ReactJs</p>
+                <a href="https://mariia1304.github.io/duchenne-react/">Revisa Aqui</a>
               </div>
             </div>
           </div>
-          <div className="cardBox offset-1 col-md3">
+          <div className="cardBox  col-md3">
             <div className="card">
               <div className="front">
                 <h3></h3>
@@ -70,9 +70,9 @@ class Cards extends Component {
                 <strong>&#x21bb;</strong>
               </div>
               <div className="back">
-                <h3>Back Side One</h3>
-                <p>Content in card one</p>
-                <a href="#">Button 1</a>
+                <h3>Fem Data</h3>
+                <p>Js, Html5, css</p>
+                <a href="https://github.com/javie-lau/SCL008-data-lovers">Revisa aqui</a>
               </div>
             </div>
           </div>

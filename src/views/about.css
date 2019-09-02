@@ -1,36 +1,81 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap');
-.my{
-    width: 25rem;
-    height: auto;
-    margin-top: 7rem;
-    -webkit-animation: swing-in-left-fwd 0.3s ease-out both;
-    animation: swing-in-left-fwd 0.3s ease-out both;
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:800&display=swap');
+
+#about{
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:15%;
+  margin-top:7%;
 }
 
+/* FOTO */
 
-
-#redes{
-    display: inline-block;
-  position:absolute;
-  top:50%;
-  left:50%;
-  -ms-transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
+.me{
+    max-width: 100%;
+    max-height: 300px;
+    /* margin-top: 7rem; */
+    -webkit-animation: swing-in-left-fwd 0.8s ease-out both;
+    animation: swing-in-left-fwd 0.8s ease-out both;
 }
-#redes a {
+
+/* TEXTOS */
+
+.name{
+  font-family: 'Dosis', sans-serif;
+   vertical-align: text-top;
+  font-style:bold;
+  text-align: left;
+  text-size-adjust: auto;
+  text-transform: uppercase;
+  color:  #aa93cd;
+  font-size: 50px;
+  -webkit-animation: tracking-in-expand 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+           animation: tracking-in-expand 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+ 
+  }
+
+
+.front{
+   font-family: 'Dosis', sans-serif;
+   letter-spacing: 3px;
+   color:#f36d77;
+   text-transform: uppercase;
+   font-size: 25px;
+   text-align: left;
+   
+
+}
+
+.descripcion{
+   font-family: 'Dosis', sans-serif;
+   /* width: auto; */
+   color:rgb(182, 182, 182);
+   font-size: 18px;
+   text-align: justify;
+}
+
+/* REDES */
+
+
+
+ .redes{
+  align-self: auto;
+  
+} 
+.redes a {
     color:#fff;
-    background: #DB6E82;
+    background: #8ad5a7;
     border-radius:4px;
     text-align:center;
     text-decoration:none;
     font-family:fontawesome;
     position: relative;
     display: inline-block;
-    width:40px;
-    height:28px;
-    padding-top:12px;
-    margin:0 2px;
+    width:60px;
+    height:30px;
+    padding: 2px;
+    margin-right:5%;
+    
     -o-transition:all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -38,13 +83,14 @@
      -webkit-font-smoothing: antialiased;
   }
   
-  #redes a:hover {
+  .redes a:hover {
     background: #ef92a3;
+    color:white;
   }
   
   /* pop-up text */
   
-  #redes a span {
+  .redes a span {
     color:#666;
     position:absolute;
     font-family:sans-serif;
@@ -66,7 +112,7 @@
   
   /* pop-up text arrow */
   
-  #redes a span:before {
+  .redes a span:before {
     content:'';
     width: 0; 
     height: 0; 
@@ -74,13 +120,13 @@
     border-right: 5px solid transparent;
     border-top: 5px solid #fff;
     position:absolute;
-    bottom:-5px;
+    bottom:-3px;
     left:40px;
   }
   
   /* text pops up when icon is in hover state */ 
   
-  #redes a:hover span {
+  .redes a:hover span {
     bottom:50px;
     visibility:visible;
     opacity:1;
@@ -88,79 +134,18 @@
   
   /* font awesome icons */
   
-  #redes a:nth-of-type(1):before {
+  .redes a:nth-of-type(1):before {
   content:'\f0e1';
   }
-  #redes a:nth-of-type(2):before {
+  .redes a:nth-of-type(2):before {
   content:'\f09b';
   }
-  #redes a:nth-of-type(3):before {
+  .redes a:nth-of-type(3):before {
   content:'\f16d';
   }
   
-.text{
-    height: auto;
-    margin-top: 10rem;
-  
-}
- .name{
 
-   font-family: 'Dosis', sans-serif;
-   font-style:bold;
-   text-transform: uppercase;
-   color:  #FF0099;
-   font-size: 50px;
-   -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  
-   
-   }
-.front{
-    font-family: 'Dosis', sans-serif;
-    color:#ffff;
-    text-transform: uppercase;
-    font-size: 25px;
-    
-
-}
-.descripcion{
-    font-family: 'Dosis', sans-serif;
-    width: auto;
-    color:rgb(182, 182, 182);
-}
- @media (max-width: 400px) {
-    .my{
-        width: 15rem;
-        height: auto;
-        
-    }
-    .text{
-        height: auto;
-        margin-top: 3rem;
-        width: 100%;
-
-    }
-    
-
-} 
-@media (max-width: 600px) {
-    .my{
-        width: 20rem;
-        height: auto;
-        
-    }
-    .text{
-        height: auto;
-        margin-top: 3rem;
-        width: 100%;
-
-    }
-    
-
-} 
-
-
-/* animation swing-in-left-fwd */
+/* ANIMACIONES (animation swing-in-left-fwd) */
 
  @-webkit-keyframes swing-in-left-fwd {
   0% {
@@ -220,3 +205,34 @@
   }
 }
 
+
+ @media (max-width: 400px) {
+    .name{
+        text-align: center;
+        
+        
+    }
+    .front{
+      text-align: center;
+    }
+    #about{
+      margin-left:5%;
+      margin-right:5%;
+      margin-bottom:15%;
+      margin-top:2%;
+    }
+    
+
+} 
+@media (max-width: 600px) {
+  .name{
+      text-align: center;
+      
+      
+  }
+  .front{
+    text-align: center;
+  }
+    
+
+}  

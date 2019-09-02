@@ -4,13 +4,71 @@
     font-family: 'Dosis', sans-serif;
     font-style:bold;
     text-transform: uppercase;
-    color:  #FF0099;
-    font-size: 50px;
-    margin-top: 10rem;
+    color:  #8ad5a7;
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
 }
+
+
+.fa-react {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    padding-bottom: 60px;
+
+}
+
+.fa-bootstrap {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    padding-bottom: 60px;
+    
+}
+
+.fa-github {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    padding-bottom: 60px;
+    
+}
+
+.fa-js {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    
+}
+
+.fa-css3-alt {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    
+}
+
+.fa-html5 {
+    content:'\f41b';
+    font-size: 60px;
+    color:#f36d77;
+    
+}
+
+
+
+.col-4{
+    text-align: center;
+    
+}
+
+
 .logos{
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    align-content: center;
 }
 .react{
     width: 10rem;
@@ -28,6 +86,12 @@
     height: auto;
 
 } 
+@media screen and (max-width: 767px) {
+.sk{
+    text-align: center;
+}
+}
+
 @media (max-width: 400px) {
     .react{
         width: 4rem;
@@ -51,5 +115,8 @@
         width: 100%;
     } 
 
+    .sk{
+        text-align: center;
+    }
     
 }

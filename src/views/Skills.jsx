@@ -14,9 +14,30 @@ class Skills extends Component{
            
             </div>
             <div className="logos row">
-                <div className="col-md-12 col-xs-12">
-              <Responsive/>
-                </div>
+                <div className="col-4">
+                <i className="fab fa-react"></i></div>
+
+                <div className="col-4">
+                <i class="fab fa-bootstrap"></i></div>
+
+                <div className="col-4">
+                <i class="fab fa-github"></i></div>
+
+                
+               
+                <div className="col-4">
+                <i class="fab fa-js"></i></div>
+               
+                <div className="col-4">
+                <i class="fab fa-css3-alt"></i></div>
+
+                <div className="col-4">
+                <i class="fab fa-html5"></i></div>
+
+
+
+
+                
             </div>
             </div>
             

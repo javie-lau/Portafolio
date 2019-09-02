@@ -1,13 +1,18 @@
 
+.works{
+  margin-bottom: 10rem;
+  margin-top:2rem;
 
+}
 
 .wk{
     font-family: 'Dosis', sans-serif;
     font-style:bold;
     text-transform: uppercase;
-    color:  #FF0099;
-    font-size: 50px;
-    margin-top: 10rem;
+    color:  #8ad5a7;
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .atacama{
   position: relative;
@@ -20,6 +25,7 @@
   perspective: 800px;
   transition: all 0.3s ease 0s;
   width: 23.7%;
+  
 }
 
 .cardBox:hover .card {
@@ -86,38 +92,45 @@
 }
 
 .cardBox:nth-child(1) .card .back {
-  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-color:#aa93cd;
   background-size:cover;
 }
 .cardBox:nth-child(1) .card .front {
-  background-image:url("https://i.ibb.co/LxFFt38/card1.png");
+  background-image:url("https://i.ibb.co/jDL9WWh/card1.png");
   background-size:cover;
+  
   
 }
 
 .cardBox:nth-child(2) .card .back {
-  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-color:#f36d77;
   background-size:cover;
 }
 .cardBox:nth-child(2) .card .front {
-  background-image:url("https://i.ibb.co/TtmXzgm/card2.png");
-  background-size:cover;
+  background-image:url("https://i.ibb.co/9rrhC98/card3.png");
+  background-size: auto;
+  
+  
+ 
 }
 .cardBox:nth-child(3) .card .back {
-  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
-  background-size:cover;
+  background-color:#aa93cd;
+  background-size: auto;
 }
 .cardBox:nth-child(3) .card .front {
-  background-image:url("https://i.ibb.co/bPFZZX0/card3.png");
-  background-size:cover;
+  
+  background-image:url("https://i.ibb.co/6FBTVgH/card4.png");
+  background-size: cover;
+  
 }
 
 .cardBox:nth-child(4) .card .back {
-  background-image:url("https://i.ibb.co/TPGV3Kd/cardback.png");
+  background-color:#f36d77;
+  
   background-size:cover;
 }
 .cardBox:nth-child(4) .card .front {
-  background-image:url("https://i.ibb.co/wdHXwdm/card4.png");
+  background-image:url("https://i.ibb.co/CH2VPCN/card2.png");
   background-size:cover;
 }
 .cardBox:nth-child(2) .card {
@@ -155,7 +168,7 @@
 
 @media screen and (max-width: 767px) {
   .cardBox {
-    margin-left: 2.8%;
+    margin-left: 6%;
     margin-top: 3%;
     width: 40%;
   }
@@ -165,13 +178,32 @@
   .cardBox:last-child {
     margin-bottom: 3%;
   }
+  .wk{
+    text-align: center;
+
+}
+
 }
 
 @media screen and (max-width: 480px) {
   .cardBox {
     width: 80%;
+    margin-left: 3.5rem;
+    
   }
   .card {
     height: 260px;
+    
   }
+
+  .wk{
+    text-align: center;
+
+}
+.works{
+  margin-bottom: 5rem;
+  margin-top:5rem;
+  
+
+}
 }

@@ -6,9 +6,17 @@ class Menu extends Component{
 
   render(){
     return(
-      <div>
+      <div className="dotNav">
+         <div data-spy="affix" id="dot-nav">
+    	<ul>
+	    
+	      <li className="awesome-tooltip" title="About"><a href="#about"></a></li>
+	      <li className="awesome-tooltip" title="Projects"><a href="#project"></a></li>
+	      <li className="awesome-tooltip" title="Skills"><a href="#skills"></a></li>
+	    </ul>
+	</div>
         
-        <div className="fixed-top">
+        {/* <div className="fixed-top">
             <ul className="gradiant nav ">
                   <li className="nav-item">
                     <a className="menNav nav-link " href="#">About Me</a>
@@ -23,7 +31,7 @@ class Menu extends Component{
                 
               </ul>
        
-        </div>
+        </div> */}
 
 
       </div>
