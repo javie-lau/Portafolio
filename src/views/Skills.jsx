@@ -6,7 +6,7 @@ import Responsive from '../componentes/Slider';
 class Skills extends Component{
     render(){
         return(
-            <div>
+            <div className='skillsMe'>
             <div className="skills">
                  <h1 className="sk">
                    Skills

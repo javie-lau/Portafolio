@@ -5,7 +5,7 @@ import './about.css'
 class About extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className="aboutMe container-fluid">
                 <div className="row">
                     <div className="myPhoto col-md-4 col-xs-12">
                         <img className="me" src={images['cross3.png']} alt="Responsive image"></img>

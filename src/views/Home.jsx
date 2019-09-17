@@ -4,36 +4,84 @@ import About from './About'
 import Skills from './Skills'
 import Works from './Works'
 import './home.css'
+// ES6 Imports
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
+
+
 
 class Home extends Component {
+  componentDidMoun() {
+
+    Events.scrollEvent.register('begin', function (to, element) {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register('end', function (to, element) {
+      console.log("end", arguments);
+    });
+
+    scrollSpy.update();
+
+  }
+  componentWillUnmoun() {
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  }
+  scrollToTop() {
+    scroll.scrollToTop();
+  }
+  scrollToBottom() {
+    scroll.scrollToBottom();
+  }
+  scrollTo() {
+    scroll.scrollTo(100);
+  }
+  scrollMore() {
+    scroll.scrollMore(100);
+  }
+  handleSetActive(to) {
+    console.log(to);
+  }
+
   render() {
     return (
       <React.Fragment>
+
+        <div id="navbar">
+        <Link  activeClass="active"to="about"spy={true} smooth={true}  duration={600} onSetActive={this.handleSetActive}><a className="ab" title="About" >About</a></Link>
+        <Link activeClass="active" to="project" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}> <a  className="pr"title="Projects">Project</a></Link>
+        <Link activeClass="active" to="skills" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}>  <a className="sks">Skills</a></Link> 
+        </div>
+
+        {/*         
         <div className="dotNav">
           <div data-spy="affix" id="dot-nav">
             <ul>
 
-              <li className="awesome-tooltip" title="About"><a href="#about"></a></li>
-              <li className="awesome-tooltip" title="Projects"><a href="#project"></a></li>
-              <li className="awesome-tooltip" title="Skills"><a href="#skills"></a></li>
+            <Link  activeClass="active" to="about" spy={true} smooth={true}  duration={600} onSetActive={this.handleSetActive}> <button className="awesome-tooltip" title="About"></button></Link>
+            <Link activeClass="active" to="project" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}>    <li className="awesome-tooltip" title="Projects"></li></Link>
+            <Link activeClass="active" to="skills" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}> <li className="awesome-tooltip" title="Skills"></li></Link>
             </ul>
           </div>
-        </div>
+        </div> */}
 
-        <div id="about">
+        <Element name="about" className="element">
           <About />
-        </div>
-        
+        </Element>
+
         <div className="container">
 
-          <div id="project">
+          <Element name="project" className="element">
             <Works />
-          </div>
-          <div id="skills">
+          </Element>
+          <Element name="skills" className="element">
 
             <Skills />
 
-          </div>
+          </Element>
         </div>
 
       </React.Fragment>

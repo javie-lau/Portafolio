@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap');
 
+.skillsMe{
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+
+}
+.skills{
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
 .sk{
     font-family: 'Dosis', sans-serif;
     font-style:bold;
     text-transform: uppercase;
     color:  #8ad5a7;
     font-size: 40px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+   
+ 
+    
 
 }
 
@@ -93,6 +103,13 @@
 }
 
 @media (max-width: 400px) {
+    
+.skillsMe{
+    padding-top: 3rem;
+    padding-bottom: 5rem; 
+    margin-bottom: 5rem;
+
+}
     .react{
         width: 4rem;
         height: auto;
