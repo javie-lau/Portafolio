@@ -18,9 +18,9 @@ class About extends Component {
                         
                         <div className="redes ">
                         
-                            <a href="#"><span>Linkedin</span></a>
-                            <a href="#"><span>Github</span></a>
-                            <a  href="#"><span>Instagram</span></a>
+                            <a href="http://www.linkedin.com/in/laura-silva-arratia"target="_blank"><span>Linkedin</span></a>
+                            <a href="https://github.com/javie-lau"target="_blank"><span>Github</span></a>
+                            <a  href="https://www.instagram.com/_javie_lau/"target="_blank"><span>Instagram</span></a>
                     
                         </div>
 

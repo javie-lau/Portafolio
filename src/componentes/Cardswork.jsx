@@ -30,7 +30,7 @@ class Cards extends Component {
               <div className="back">
                 <h3>Burger-queer</h3>
                 <p>frameworks ReactJs</p>
-                <a href="https://burguer-queen-b451c.firebaseapp.com/SCL009-Burger-Queen/">Revisa Aqui</a>
+                <a href="https://burguer-queen-b451c.firebaseapp.com/SCL009-Burger-Queen/"target="_blank">Revisa Aqui</a>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ class Cards extends Component {
               <div className="back">
                 <h3>Atacama Scope</h3>
                 <p>Html y Css</p>
-                <a href="https://github.com/javie-lau/Atacama-Scope">Revisa Aqui</a>
+                <a href="https://github.com/javie-lau/Atacama-Scope"target="_blank">Revisa Aqui</a>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ class Cards extends Component {
               <div className="back">
               <h3>Dsg-duchenne</h3>
                 <p>frameworks ReactJs</p>
-                <a href="https://mariia1304.github.io/duchenne-react/">Revisa Aqui</a>
+                <a href="https://mariia1304.github.io/duchenne-react/"target="_blank">Revisa Aqui</a>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ class Cards extends Component {
               <div className="back">
                 <h3>Fem Data</h3>
                 <p>Js, Html5, css</p>
-                <a href="https://github.com/javie-lau/SCL008-data-lovers">Revisa aqui</a>
+                <a href="https://github.com/javie-lau/SCL008-data-lovers"target="_blank">Revisa aqui</a>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 .aboutMe{
   margin-left:5%;
@@ -22,7 +23,7 @@
 /* TEXTOS */
 
 .name{
-  font-family: 'Dosis', sans-serif;
+  font-family: 'PT Serif', serif;
    vertical-align: text-top;
   font-style:bold;
   text-align: left;
@@ -50,7 +51,7 @@
 .descripcion{
    font-family: 'Dosis', sans-serif;
    /* width: auto; */
-   color:rgb(182, 182, 182);
+   color:rgb(116, 116, 116);
    font-size: 18px;
    text-align: justify;
    padding-right: 8rem;
@@ -62,6 +63,7 @@
 
  .redes{
   align-self: auto;
+  margin-top: 5%;
   
 } 
 .redes a {
@@ -93,7 +95,7 @@
   /* pop-up text */
   
   .redes a span {
-    color:#666;
+    color:#ef92a3;
     position:absolute;
     font-family:sans-serif;
     bottom:0;

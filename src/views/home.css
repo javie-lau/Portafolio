@@ -1,95 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 #navbar {
 	overflow: hidden;
-	background-color: #333;
-	position: -webkit-sticky; /* Safari */
+	background-color: #ef92a3;
+	position: -webkit-sticky;
 	position: sticky;
+	z-index: 1;
 	top: 0;
+	color:#8ad5a7;
+	font-family: 'PT Serif', serif;
+	
   }
   
   /* Navbar links */
   #navbar a {
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	color: white;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
 	
   }
-  
-  
- 
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky {
-	padding-top: 60px;
+  #navbar a:hover {
+	  color:#aa93cd;
+	  cursor: pointer;
   }
-
-/* .dotNav{
   
-    position: -webkit-sticky;
-    position: sticky;
-    top: 50%;
-}
-#dot-nav{    
-	right: 10px;
-	top: 50%;
-	margin-top: -50px;
-	height: 100px;
-	z-index: 999;
-}
-
-#dot-nav ul {
-	list-style: none;
-	margin:0;
-	padding: 0;
-}
-#dot-nav li {
-	position: relative;
-	background-color: #f36d77;
-	border:3px solid #8ad5a7;
-	border-radius: 15px 15px 15px 15px;
-	cursor: pointer;
-	padding: 5px;
-	height: 10px;
-	margin: 10px 10px 0px 0px;
-	width: 10px;
-	vertical-align:bottom;
-}
-#dot-nav li.active, #dot-nav li:hover {
-	background-color: #aa93cd;
-}
-
-#dot-nav a {
-	outline: 0;
-	vertical-align:top;
-	margin: 0px 0px 0px 25px;
-	position: relative;
-	top:-5px;
-}
-.awesome-tooltip + .tooltip > .tooltip-inner {
-    background-color: #8e44ad;
-    color: #f5f5f5; 
-    border: 1px solid #8e44ad; 
-}
-.awesome-tooltip + .tooltip.left > .tooltip-arrow{
-    top:50%;
-    right:0;
-    margin-top:-5px;
-    border-top:5px solid transparent;
-    border-bottom:5px solid transparent;
-	border-left:5px solid #8e44ad;
-	
-} */
-
-
 .container{
 	margin-left:5%;
 	margin-right:5%;
   
+}
+@media (max-width: 400px) {
+	#navbar {
+		overflow: hidden;
+		background-color: #ef92a3;
+		position: -webkit-sticky;
+		position: sticky;
+		z-index: 1;
+		top: 0;
+		color:#8ad5a7;
+		font-family: 'PT Serif', serif;
+		font-size:12px;
+		
+	  }
+
+
 }
