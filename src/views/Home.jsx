@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import About from './About'
 import Skills from './Skills'
 import Works from './Works'
+import Contacto from './contacto'
 import './home.css'
 // ES6 Imports
 import * as Scroll from 'react-scroll';
@@ -51,9 +52,20 @@ class Home extends Component {
       <React.Fragment>
 
         <div id="navbar">
+          <div className="row">
+          <div className="col-xs-3">
         <Link  activeClass="active"to="about"spy={true} smooth={true}  duration={600} onSetActive={this.handleSetActive}><a className="ab" title="About" >About</a></Link>
+        </div>
+        <div className="col-xs-3">
         <Link activeClass="active" to="project" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}> <a  className="pr"title="Projects">Project</a></Link>
+        </div>
+        <div className="col-xs-3">
         <Link activeClass="active" to="skills" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}>  <a className="sks">Skills</a></Link> 
+        </div>
+        <div className="col-xs-3">
+        <Link activeClass="active" to="contacto" spy={true} smooth={true}  duration={500} onSetActive={this.handleSetActive}>  <a className="sks">Contacto</a></Link> 
+        </div>
+        </div>
         </div>
 
         {/*         
@@ -81,6 +93,9 @@ class Home extends Component {
 
             <Skills />
 
+          </Element>
+          <Element name="contacto" className="element">
+            <Contacto/>
           </Element>
         </div>
 

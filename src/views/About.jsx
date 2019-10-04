@@ -16,13 +16,7 @@ class About extends Component {
                         <h2 className="front"> Desarrolladora Front-end </h2>
                         <p className="descripcion">Trabajo constantemente para alcanzar un conocimiento holistico, no solo en el área de la tecnología, si no que también en el ámbito social y espiritual, cuento con un el titulo de terapeuta natural, y comunicadora audiovisual y estudios en pedagogía, me gusta estar en constante crecimiento y desafiando mis capacidades tanto física y mentalmente, es por esto que entreno crossfit . Creo que mi mayor fortaleza es la voluntad y el hacer las cosas desde el amor.</p>
                         
-                        <div className="redes ">
                         
-                            <a href="http://www.linkedin.com/in/laura-silva-arratia"target="_blank"><span>Linkedin</span></a>
-                            <a href="https://github.com/javie-lau"target="_blank"><span>Github</span></a>
-                            <a  href="https://www.instagram.com/_javie_lau/"target="_blank"><span>Instagram</span></a>
-                    
-                        </div>
 
                     </div>
                    

@@ -1,0 +1,157 @@
+
+.contacto{
+    margin-bottom: 10rem;
+}
+
+/* REDES */
+
+.redes{
+    align-self: auto;
+    margin-top: 5%;
+    padding-top: 3rem;
+    
+  } 
+  .redes a {
+      color:#fff;
+      background: #f36d77;
+      border-radius:4px;
+      text-align:center;
+      text-decoration:none;
+      font-family:fontawesome;
+      position: relative;
+      display: inline-block;
+      width:60px;
+      height:30px;
+      padding: 2px;
+      margin-right:5%;
+      
+      -o-transition:all .5s;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s;
+       -webkit-font-smoothing: antialiased;
+    }
+    
+    .redes a:hover {
+      background: #ef92a3;
+      color:white;
+    }
+    
+    /* pop-up text */
+    
+    .redes a span {
+      color:#ef92a3;
+      position:absolute;
+      font-family:sans-serif;
+      bottom:0;
+      left:-25px;
+      right:-25px;
+      padding:5px 7px;
+      z-index:-1;
+      font-size:14px;
+      border-radius:2px;
+      background:#fff;
+      visibility:hidden;
+      opacity:0;
+      -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+     /* pop-up text arrow */
+  
+  .redes a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-3px;
+    left:40px;
+  }
+  
+  /* text pops up when icon is in hover state */ 
+  
+  .redes a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+  
+  /* font awesome icons */
+  
+  .redes a:nth-of-type(1):before {
+  content:'\f0e1';
+  }
+  .redes a:nth-of-type(2):before {
+  content:'\f09b';
+  }
+  .redes a:nth-of-type(3):before {
+  content:'\f16d';
+  }
+  .redes a:nth-of-type(4):before {
+    content:'\f16d';
+    }
+  
+
+/* ANIMACIONES (animation swing-in-left-fwd) */
+
+ @-webkit-keyframes swing-in-left-fwd {
+  0% {
+    -webkit-transform: rotateY(100deg);
+            transform: rotateY(100deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-left-fwd {
+  0% {
+    -webkit-transform: rotateY(100deg);
+            transform: rotateY(100deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 1;
+  }
+}
+/* animation tracking-in-expand */
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
